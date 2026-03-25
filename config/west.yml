@@ -1,16 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson
-    - name: gpeye
-      url-base: https://github.com/GPeye
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: feat/pointers-move-scroll
+      revision: v0.3.0
       import: app/west.yml
-    - name: urchin-peripheral-animation
-      remote: gpeye
-      revision: main 
   self:
     path: config
